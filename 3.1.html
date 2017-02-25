@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script type="text/javascript">
+		
+	    function solve() {
+			var number1 = document.getElementById("field1").value;
+		
+		    var number2 = document.getElementById("field2").value;    
+		  	var otv = 0;
+		  	otv = Math.pow(number1,number2);
+		  	alert(otv);	
+		   
+    	}
+	</script>
+</head>
+<body>
+	<form>
+		<p>A = <p>
+		<input type="text" id="field1" />	
+		<p>B = <p>
+		<input type="text" id="field2" />	
+		<input type="submit" onclick="solve()" />
+	</form>
+</body>
+</html>
